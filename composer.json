@@ -1,0 +1,32 @@
+{
+	"name": "benancetin/laravel-texttoimage",
+	"description": "texttoimage is a laravel package to stamp the text on defined (width,height,colour) image canvas.(Ex: can be used to hide e-mails from search bots.)",
+	"license": "MIT",
+	"homepage": "https://github.com/benancetin/laravel-texttoimage",
+	"authors": [
+		{
+			"name": "Benan Cetin",
+			"email": "becetin@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/benancetin/laravel-texttoimage/issues",
+		"source": "https://github.com/benancetin/laravel-texttoimage"
+	},
+	"require": {
+		"php": ">=5.6.4",
+		"laravel/framework": "5.5.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"benancetin\\texttoimage\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"benancetin\\texttoimage\\TextToImageServiceProvider"
+			]
+		}
+	}
+}
